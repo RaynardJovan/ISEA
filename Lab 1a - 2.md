@@ -80,3 +80,45 @@ Output of: • nslookup google.com • whois google.com
 <img width="1281" height="790" alt="image" src="https://github.com/user-attachments/assets/9a5bb096-76b6-4ffb-ac35-8d2969abf9f5" />
 
 <img width="1281" height="806" alt="image" src="https://github.com/user-attachments/assets/cd22e76a-32d4-49e1-97ae-fb63c759dea0" />
+
+
+Public vs Private IP Reflection 
+
+<img width="1282" height="799" alt="image" src="https://github.com/user-attachments/assets/9682ce19-031f-4c24-9841-0c7b1e99a67d" />
+
+<img width="1085" height="243" alt="image" src="https://github.com/user-attachments/assets/256d8796-026f-44fe-8e6f-0fff0c96c507" />
+
+The differance of public and privet IP is a public IP address is unique and visible to everyone and It ensures that we can be clearly identified on the internet, on the other hand a private IP address is only used within a private network
+
+screenshot for: • lsusb, lspci, less /proc/cpuinfo 
+
+<img width="1280" height="456" alt="image" src="https://github.com/user-attachments/assets/98feb6a2-b30c-4ffd-8483-e7738f1bb19e" />
+
+<img width="1284" height="803" alt="image" src="https://github.com/user-attachments/assets/a34663e7-9dfd-4b75-839b-a633abb10d17" />
+
+
+Deliverables: • File hello_world.c with source code • Compilation using gcc hello_world.c -o hello_world_executable • Execution with ./hello_world_executable 
+
+<img width="1288" height="803" alt="image" src="https://github.com/user-attachments/assets/2a9bf999-fcfc-48f6-b054-3218baf34250" />
+
+<img width="731" height="69" alt="image" src="https://github.com/user-attachments/assets/661e3375-e81f-443c-b610-84ecd49ea96a" />
+
+
+
+A short reflection (100–200 words) covering: 
+• GUI vs CLI experience 
+
+  GUIs offer intuitive and visual interaction its perfect for general task, whereas CLIs provide precision, scriptability, and efficiency if you know the commands. I appreciate both: GUIs for exploring new tools, CLIs for automation and power-user workflows.
+
+• Software installation methods pros/cons (SaaS, repo, manual, source) 
+
+  - SaaA (Software as a service): offers zero installation, always updated, but requires internet and less control
+  - Repo: Streamlined updates and dependency handling, but limited to repository offerings
+  - Manual: Offers simplicity and reliablity, though updates become your responsibility
+  - Source: provides total control, maximum customization and learning opportunity at the cost of complexity and time.
+    
+• Your preference as a user and as a future software developer 
+  As a user, I prioritize the seamless, polished experience of a GUI and the "set it and forget it" nature of SaaS for daily productivity. However, as a future software developer, I prefer leans toward the CLI and repository-based installations. In a development context, the ability to script environment setups and ensure reproducible builds is essential. 
+
+  
+  
