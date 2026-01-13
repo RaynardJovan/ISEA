@@ -16,7 +16,7 @@ Screenshot of a terminal window (CLI) or full GUI desktop to confirm OS is funct
 Reflection Questions
 · What are the advantages of using virtual machines for testing and development?
 
-    The advantages of using virtual machines is it allows you to run multiple operating systems without affecting the host operating system
+The advantages of using virtual machines is it allows you to run multiple operating systems without affecting the host operating system.
     
 · What challenges did you face during installation or network setup?
 
