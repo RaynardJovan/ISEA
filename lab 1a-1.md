@@ -15,10 +15,17 @@ Screenshot of a terminal window (CLI) or full GUI desktop to confirm OS is funct
 
 Reflection Questions
 · What are the advantages of using virtual machines for testing and development?
+
     The advantages of using virtual machines is it allows you to run multiple operating systems without affecting the host operating system
+    
 · What challenges did you face during installation or network setup?
+
    When the system was restarted, as far as I remember I didn't create a password but after I tried, the password requested by the system was the password we had previously created when setting up VirtualBox.
+   
 · What are the differences between NAT and Bridged networking in VirtualBox?
+
   NAT has same ip as same as host. Bridged has a different ip address from the host will have its own IP address 
+  
 · What did you learn about Linux distributions (distros) from your reading?
+
   For Beginners, Distros like Ubuntu and Linux are designed to just work. They include App Stores and graphical tools so you rarely have to touch the terminal, making them ideal for those switching from Windows or macOS.
