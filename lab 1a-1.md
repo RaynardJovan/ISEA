@@ -14,9 +14,10 @@ Screenshot of a terminal window (CLI) or full GUI desktop to confirm OS is funct
 <img width="640" height="402" alt="Screenshot 2026-01-13 131453" src="https://github.com/user-attachments/assets/75db4c60-2cce-4c93-a609-d64e49e08e80" />
 
 Reflection Questions
-· What are the advantages of using virtual machines for testing and development?
 
-The advantages of using virtual machines is it allows you to run multiple operating systems without affecting the host operating system.
+· What are the advantages of using virtual machines for testing and development?
+    
+   The advantages of using virtual machines is it allows you to run multiple operating systems without affecting the host operating system.
     
 · What challenges did you face during installation or network setup?
 
