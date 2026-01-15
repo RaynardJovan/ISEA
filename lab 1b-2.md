@@ -12,3 +12,12 @@ Switch user: `su - alice`, `su - bob`, `su - mallory`; use `whoami` and `ls -l /
 
 <img width="1278" height="148" alt="image" src="https://github.com/user-attachments/assets/70ea6183-91d8-4bd8-aa58-e1e1fc1450f8" />
 
+Reflection Questions
+
+· - How do Linux permissions differ from Windows ACL?
+
+· - What’s the effect of chmod 770 vs 750?
+
+· - What is the risk of adding users to the sudo group?
+
+· - Why is it important to verify with `su` and `whoami`? 
