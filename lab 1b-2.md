@@ -16,8 +16,23 @@ Reflection Questions
 
 · - How do Linux permissions differ from Windows ACL?
 
+    Linux uses a simple "user-Group-Others" model, every file has one owner and one group that we can give Read, Write, Execute permission to these three model.
+
+    Windows ACl can specify unique permissions for dozens of different users or groups on a single file.
+    
+    
 · - What’s the effect of chmod 770 vs 750?
 
+    Chmod 770: The user and Group have full control (Read,Write,Execute)
+    
+    Chmod 750: THe user has full controll and the group only can Read and Execute
+    
 · - What is the risk of adding users to the sudo group?
 
+    By adding a user using "sudo", it's mean a user can read any file delete the entire filesystem, or install malware.
+    
 · - Why is it important to verify with `su` and `whoami`? 
+
+    "su" command is the switch to get into the user environment, it forces a fresh session, ensuring that any new group memberships (like adding someone to sudo) are actually active.
+
+    "whoami" command is to prevent user from accidentally running a destructive command in the wrong window
