@@ -26,12 +26,21 @@ Edited /var/www/html/index.html with personalized content. Screenshot of the fil
 
 Reflection Questions 
 
-    - What were the benefits of cloud deployment over local virtualisation? 
+- What were the benefits of cloud deployment over local virtualisation? 
 
-    - How does Apache serve files, and how did you verify this? 
+        Cloud bring a lot of benefits, including scalability, cost-effectiveness, and enchange access to data and applications
+- How does Apache serve files, and how did you verify this?
 
-    - What did you learn about file ownership and permissions? 
+        Apache serves files by listening from HTTP requests on specific ports and mapping requested URLs to a directory on the server's disk. To verify this is working, i can check the service status using "systemctl status apache2" or i can browse to the server's ip adress.
 
-    - What risks are associated with leaving instances running? 
+- What did you learn about file ownership and permissions? 
 
-    - How would you explain the difference between DNS and /etc/hosts to a client? 
+        In linux, file sercurity have 3 hierachy(User, Group, and Others) each assigned specific Read(r), Write(W), Execute(x) right.
+- What risks are associated with leaving instances running? 
+
+        Leaving cloud instances running when they are not needed poses significant financial and security risks such as cyber attacks.
+  
+- How would you explain the difference between DNS and /etc/hosts to a client? 
+
+        DNS functions like a public phone book that tells the entire internet which IP address belongs to which domain name, whereas the /etc/hosts file lets you map IP addresses to any unique.
+    
