@@ -17,10 +17,19 @@ Reflection Questions
 
 · - Why is HTTPS important for modern web applications?
 
+    HTTPS is important because it keeps the information secret by encrypting the data moves between the browser and the website's server
 · - What entity issued your site’s TLS certificate?
 
+    Let's encrypt
+    
 · - How long is your certificate valid for, and how can it be renewed?
 
+    Let's encrypt valid for 90 days, it can be renewed by crowjob or system timer check
+    
 · - What happens if a certificate expires and is not renewed?
 
+    The user will see a warning "Your connection is not private" on the browser
+
 · - Why does Let’s Encrypt require port 80 or 443 to be open for verification? 
+
+    because Let's encrypt need to prove that the owner has  control over the domain requesting for certificate
