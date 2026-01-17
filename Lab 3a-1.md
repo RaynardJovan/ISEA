@@ -18,10 +18,20 @@ Reflection Questions
 
 · - What is the role of DNS in Internet presence?
 
+    DNS functions like a public phone book that tells the entire internet which IP address belongs to which domain name
+    
 · - Why does DNS propagation take time?
 
+    DNS propagation takes time due to factors such as the Time to Live (TTL) of the DNS record, record type, DNS cache, and network conditions.\
+    
 · - How does Let’s Encrypt validate domain ownership?
 
+    Let's Encrypt memvalidasi kepemilikan domain perangkat lunak klien ACME menggunakan kunci publik.
+    
 · - What are the risks if TLS is not configured on a public-facing site?
 
+    Running a site with out TLS will be dangerous beacuse anyone on the same network (like at a coffee shop) can see exactly what users are typing like passwords, personal info, or messages.
+    
 · - What could happen if you leave your cloud VM running for months? 
+
+    it will take a lot of cost because most cloud providers charge by the hour or second and vulnerable to cyber attacks
